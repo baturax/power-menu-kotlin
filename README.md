@@ -1,3 +1,5 @@
+##power menu
+
 This is a Kotlin Multiplatform project targeting Desktop.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
