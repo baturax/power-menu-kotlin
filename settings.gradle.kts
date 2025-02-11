@@ -1,4 +1,4 @@
-rootProject.name = "Ataturk"
+rootProject.name = "powermenu"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

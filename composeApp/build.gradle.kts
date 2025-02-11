@@ -30,11 +30,11 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "m.k.a.MainKt"
+        mainClass = "power.menu.MainKt"
 
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.AppImage, TargetFormat.Deb)
-            packageName = "m.k.a"
+            targetFormats(TargetFormat.Pkg)
+            packageName = "power.menu"
             packageVersion = "1.0.0"
         }
     }

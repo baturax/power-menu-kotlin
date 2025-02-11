@@ -1,4 +1,4 @@
-package m.k.a
+package power.menu
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import ataturk.composeapp.generated.resources.*
+import powermenu.composeapp.generated.resources.*
 import com.lordcodes.turtle.shellRun
 import org.jetbrains.compose.resources.Font
 
@@ -48,7 +48,7 @@ fun powerOff() {
     val poweroffText: String = "Will shutdown in 3 seconds"
     val notifiaction = shellRun("notify-send", listOf("-a", "system", poweroffText))
     val rebootIt = shellRun("sleep", listOf("3s"))
-    val finallyover = shellRun("reboot")
+    val finallyover = shellRun("poweroff")
 }
 
 fun logOut() {
