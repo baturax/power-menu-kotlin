@@ -1,5 +1,16 @@
 ## power menu
 
+# if on wm make sure to add window rule
+for niri:
+  window-rule {
+   match app-id=r#".*"# title="touc.*"
+   draw-border-with-background false
+   opacity 1.0
+   border {
+        off
+    }
+}
+
 This is a Kotlin Multiplatform project targeting Desktop.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
